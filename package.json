@@ -1,0 +1,20 @@
+{
+  "name": "chatgpt_pdf_interaction",
+  "version": "1.0.0",
+  "description": "Interacting with pdf using chatgpt",
+  "type": "module",
+  "main": "faq.js",
+  "scripts": {
+    "dev": "node faq.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.213",
+    "openai": "^4.24.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "author": "Samar Panda"
+}
